@@ -5,9 +5,9 @@ avatar_filename: avatar.jpg
 bio: My research interests lie in theoretical computer science with an emphasis
   on theoretical foundations of machine learning and big data analysis.
 interests:
-  - Theoretical Computer science
+  - Theoretical Computer Science
   - Foundations of Machine Learning
-  - Sublinear algorithms
+  - Sublinear Algorithms
 social:
   - icon: envelope
     icon_pack: fas
