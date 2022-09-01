@@ -2,8 +2,8 @@
 title: Dimitris Halatsis
 role: MS Computer Science EPFL
 avatar_filename: hal.jpg
-bio: My research interests include distributed robotics, mobile computing and
-  programmable matter.
+bio: My research interests lie in theoretical computer science with an emphasis
+  on theoretical foundations of machine learning and big data analysis.
 interests:
   - Theoretical Computer science
   - Foundations of Machine Learning
