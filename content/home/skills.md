@@ -24,5 +24,6 @@ design:
     color: C++
     gradient_start: "#fd0808"
     gradient_end: "#1b1abe"
+    image_darken: 0.3
 ---
 Writing good C++
