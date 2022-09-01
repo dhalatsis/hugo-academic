@@ -40,4 +40,4 @@ I am broadly interested in theoretical computer science with an emphasis on theo
 
 Besides CS I'm an adventure enthusiast who enjoys mountain hikes, camping and bike touring.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Hal_CV_long.pdf" "newtab" >}}CV{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "assets/media/hal_cv_long.pdf" "newtab" >}}CV{{< /staticref >}}.
