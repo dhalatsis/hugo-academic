@@ -1,6 +1,6 @@
 ---
 title: Dimitris Halatsis
-role: MSc Computer Science EPFL
+role: MS Computer Science EPFL
 avatar_filename: hal.jpg
 bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
