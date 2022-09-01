@@ -36,7 +36,7 @@ email: ""
 superuser: true
 highlight_name: true
 ---
-I'm Dimitris and I am an MS graduate of Computer Science from [EPFL](https://www.epfl.ch/en/). My studies where mostly in theoretical computer science and data science. In my MS thesis I worked with [Grigoris](https://grigorisg9gr.github.io/) and [Volkan Cevher](https://people.epfl.ch/volkan.cevher?lang=en) on properties of deep polynomial neural networks.
+I'm Dimitris and I am a MS graduate of Computer Science from [EPFL](https://www.epfl.ch/en/). My studies where mostly in theoretical computer science and data science. In my MS thesis I worked with [Grigoris](https://grigorisg9gr.github.io/) and [Volkan Cevher](https://people.epfl.ch/volkan.cevher?lang=en) on properties of deep polynomial neural networks.
 
 I am broadly interested in theoretical computer science with an emphasis on theoretical foundations of machine learning and big data analysis.
 
