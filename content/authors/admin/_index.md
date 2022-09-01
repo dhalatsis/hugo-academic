@@ -1,7 +1,7 @@
 ---
 title: Dimitris Halatsis
 role: MS Computer Science EPFL
-avatar_filename: hal.jpg
+avatar_filename: avatar.jpg
 bio: My research interests lie in theoretical computer science with an emphasis
   on theoretical foundations of machine learning and big data analysis.
 interests:
