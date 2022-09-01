@@ -26,7 +26,7 @@ education:
   courses:
     - course: MS in Computer Science
       institution: EPFL
-      year: 2020
+      year: 2022
     - course: BS in Computer Science
       institution: University of Athens
       year: 2019
