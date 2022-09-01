@@ -5,7 +5,9 @@ avatar_filename: hal.jpg
 bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
 interests:
-  - Theoretical\Computer\Science
+  - Theoretical Computer science
+  - Foundations of Machine Learning
+  - Sublinear algorithms
 social:
   - icon: envelope
     icon_pack: fas
