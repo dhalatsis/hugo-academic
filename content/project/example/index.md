@@ -1,22 +1,26 @@
 ---
-title: Example Project
-summary: An example of using the in-built project page.
+title: Mind the Path
+summary: An application of computer vision and machine learning on mapping
 tags:
   - Deep Learning
-date: '2016-04-27T00:00:00Z'
+date: '2021-05-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: Training
   focal_point: Smart
 
 links:
   - icon: twitter
     icon_pack: fab
     name: Follow
-    url: https://twitter.com/georgecushen
+    url: https://twitter.com/dimitrioshal
+  - icon: ""
+    name: Website
+    url: https://www.mindthepath.eu/
+
 url_code: ''
 url_pdf: ''
 url_slides: ''
@@ -27,15 +31,53 @@ url_video: ''
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+slides: ""
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+Description
+💎 Idea
 
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
+Problem:
 
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
+Undoubtedly, there are too many uncharted trails. Google Maps, AllTrails and other companies fail to map all of them, and the only solution so far is for mappers to do it. Cartography is solely based on people. As a result, if a person does not map a trail, the trail basically never existed! What’s worse, is that, on average, mapping a whole area takes around 3-5 years! And everyone knows that mapping an unknown area, let alone hike it, could be highly unsafe.
 
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
+All the above led to the formation of Mind the Path, the Deep Learning Application capable of solving this problem.
 
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+Solution:
+
+The existence of Copernicus and Galileo inspired Mind the Path to capitalize on satellite data and apply them to a cutting-edge AI model in order to identify uncharted trails. This way, not only does Mind the Path assist cartography by finding new trails and roads, but enhances it too, since we estimate it can speed up the mapping process by up to 70%. Furthermore, the cost of said mapping process will be lowered, since personnel will not be needed to actually visit an area. As for the safety, the trails will obviously have been mapped by the time a hiker goes to explore them. But even for the first person who treks in a generated trail of our algorithm, they will be tracked at all times by Galileo’s satellites and the app will even keep their closed ones updated regarding their whereabouts for their safety.
+
+🛰️ EU space technologies
+
+Mind the Path uses Copernicus Satellites EO’s Data to gather geographical and climate’s statistics information and Galileo’s signals to track the position of its users. This way, it deep-trains its model and finds untracked trail maps!
+
+More specifically, during the hackathon stage:
+
+Galileo is used to track the geolocation in each user’s device in order to locate them and, thus, track them through the app for their safety and for a better navigation experience
+Copernicus’ data provides Mind the Path with all the geographical data (terrain roughness, altitude, etc.) and climate stats (vegetation to check tree presence, air concentration, weather, water quality and others) necessary to properly find new trails and distinguish their difficulties
+As for the next stage, data applications will include, but are not limited to, the following:
+
+Predicting Air Quality. The AI algorithm will utilize even more Copernicus data to estimate the air quality of an area and suggest relative trails to its users
+Defining Vegetation Types. Using Copernicus’ ndvi information, Mind The Path will successfully find all different flora in an area, further satisfying nature enthusiasts’ needs
+🏖️ (Re)Visit Europe
+
+Mind the Path’s solution will revolutionize exploring nature with care (Challenge #3). Generating untracked routes and showcasing their points of interest and activities available will draw more people closer to the nature, thus immediately supporting adventure/green tourism. Furthermore, nature enthusiasts using the app will be posting their experiences and sharing them amongst friends and fellow enthusiasts, rating the trails followed, thus assisting both new and old hikers in getting closer to the natural environment.
+
+💪 Team
+
+Mendrinos Georgios, NCSR Demokritos, Coordinator
+
+Halatsis Dimitrios: MSc from EPFL, Deep learning optimization
+
+Costopoulos Constantinos, Georgia Tech Aerospace Meng.Industry experience in Business administration, Business Administration & Model
+
+Tsaousis Konstantinos, ECE NTUA Meng, Deep learning engineer
+
+Glytsos Marios, ECE NTUA Meng, AI & Copernicus Data Processing
+
+Michas Georgios, EPFL, Software & GNSS usage
+
+Pagoulatos Fivos, UoA informatics, Hardware Development
+
+Pyrenis Nikos, UoA automation, Market & Competition Analysis
+
