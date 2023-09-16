@@ -16,7 +16,7 @@ social:
     link: https://twitter.com/dimitrioshal
   - icon: github
     icon_pack: fab
-    link: https://github.com/demetriushal
+    link: https://github.com/dhalatsis22
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/dimitrios-halatsis/
@@ -25,6 +25,9 @@ organizations:
     url: https://www.imperial.ac.uk/
 education:
   courses:
+    - course: PhD in Machine Learning
+      institution: EPFL
+      year: 2022
     - course: MS in Computer Science
       institution: EPFL
       year: 2022
